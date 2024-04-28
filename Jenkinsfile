@@ -23,7 +23,7 @@ pipeline {
                 """
             }
          }
-         stage("Push the changed deployment file to GitHub") {
+         stage ("Push the changed deployment file to GitHub") {
             steps {
                 sh """
                     git config --global user.name "gabinsime75"
